@@ -1,0 +1,50 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 30rem;
+  padding: 0 15%;
+  background-color: var(--dark-blue);
+}
+
+.bottomNavContainer {
+  display: flex;
+  align-items: center;
+  height: 25rem;
+}
+
+.bottomNav {
+  display: flex;
+  height: 65%;
+  width: 100%;
+  justify-content: space-between;
+}
+.navList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.copyrSocialsContainer {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.socialsContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.title {
+  color: var(--grey-text);
+  margin-bottom: 2rem;
+}
+.list {
+  color: white;
+}
+
+.copyr {
+  color: var(--grey-text);
+}

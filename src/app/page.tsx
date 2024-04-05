@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import HeroSection from "@/components/heroSection/heroSection";
 import PlansContainer from "@/components/plansContainer/plansContainer";
 import FeaturesSection from "@/components/featuresSection/featuresSection";
+import Footer from "@/components/footer/footer";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <PlansContainer />
       <FeaturesSection />
+      <Footer />
     </main>
   );
 }
