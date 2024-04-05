@@ -1,0 +1,71 @@
+.planCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #eeeeee;
+  height: 40rem;
+  border-radius: var(--border-radius);
+  flex-grow: 1;
+  max-width: 22rem;
+  min-width: 275px;
+  padding: 2.5rem;
+}
+
+.planType {
+  color: var(--brainwave-blue);
+}
+
+.priceContainer {
+  margin-bottom: 1rem;
+}
+
+.currency {
+  display: inline;
+  font-size: 20px;
+}
+.price {
+  font-size: 60px;
+  width: 4rem;
+  display: inline;
+}
+
+.perMonth {
+  display: inline;
+  font-weight: 500;
+}
+
+.billing {
+  font-size: 15px;
+  color: var(--grey-text);
+}
+
+.benefitsListContainer {
+  list-style-type: none;
+  line-height: 3rem;
+}
+
+.freeTrialBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  background-color: var(--brainwave-blue);
+  color: white;
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+}
+
+.freeTrialBtnLight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  background-color: var(--transparent-blue);
+  color: var(--brainwave-blue);
+  border-radius: var(--border-radius);
+  margin-bottom: 2rem;
+}
+
+.noCardReq {
+  color: var(--grey-text);
+}
